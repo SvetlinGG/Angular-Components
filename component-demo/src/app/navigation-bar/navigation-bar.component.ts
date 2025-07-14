@@ -17,13 +17,17 @@ import { Component } from "@angular/core";
         display: flex;
 
         .nav-btn {
-            border: 1px solid red;
             padding: 10px;
+            border: 1px solid black;
         }
         .nav-btn:hover {
             cursor: pointer;
+            background-color: grey;
+            color: white;
         }
     }`
 })
 
-export class NavigationBarComponent{}
+export class NavigationBarComponent{
+    title = 'My Navigation Component';
+}
