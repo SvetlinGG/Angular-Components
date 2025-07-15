@@ -3,6 +3,7 @@ import { Component } from "@angular/core";
 @Component({
     selector: 'app-navigation-bar',
     template: `<div class="nav-bar">
+        <div>{{title}}</div>
         <div class="nav-btn">Home</div>
         <div class="nav-btn">Contacts</div>
         <div class="nav-btn">About</div>
@@ -15,8 +16,11 @@ import { Component } from "@angular/core";
         background-color: skyblue;
         color: black;
         display: flex;
+        justify-content: center;
+        align-items: center;
 
         .nav-btn {
+            margin-left: 10px;
             padding: 10px;
             border: 1px solid black;
         }
