@@ -9,4 +9,5 @@ import { Component } from "@angular/core";
 
 export class NavigationBarComponent{
     title = 'My Navigation Component';
+    
 }
