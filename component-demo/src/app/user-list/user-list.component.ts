@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './user-list.component.css'
 })
 export class UserListComponent {
-  user = [
+  users = [
     {
       name: 'Raj',
       age: 25,

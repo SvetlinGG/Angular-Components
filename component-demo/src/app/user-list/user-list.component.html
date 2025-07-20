@@ -1,8 +1,8 @@
 <div id="wrapper">
+    <h3>My Users List:</h3>
     <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        @for (user of users; track $index) {
+            <div>{{user.name}}</div>
+        }
     </ul>
 </div>
