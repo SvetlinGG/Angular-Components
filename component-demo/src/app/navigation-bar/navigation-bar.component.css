@@ -8,15 +8,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    .nav-btn {
+}
+.nav-btn {
         margin-left: 10px;
         padding: 10px;
         border: 1px solid black;
-    }
-    .nav-btn:hover {
+}
+.nav-btn:hover {
         cursor: pointer;
         background-color: grey;
         color: white;
-    }
 }
