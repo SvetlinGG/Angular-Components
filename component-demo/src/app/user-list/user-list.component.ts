@@ -17,13 +17,13 @@ export class UserListComponent {
       name: 'Rahul',
       age: 30,
       id: 2,
-      address: 'India'
+      address: 'Pakistan'
     },
     {
       name: 'Rajesh',
       age: 35,
       id: 3,
-      address: 'India'
+      address: 'Indonesia'
     }
   ]
 }

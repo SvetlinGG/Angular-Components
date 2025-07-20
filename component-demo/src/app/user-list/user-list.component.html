@@ -2,7 +2,7 @@
     <h3>My Users List:</h3>
     <ul>
         @for (user of users; track $index) {
-            <div>{{user.name}}</div>
+            <li>{{user.id}} - {{user.name}} --> {{user.address}} - {{user.age}}</li>
         }
     </ul>
 </div>
