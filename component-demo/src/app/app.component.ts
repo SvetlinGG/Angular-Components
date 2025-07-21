@@ -18,9 +18,12 @@ export class AppComponent {
 
   isShown = true;
 
+  randomMsg = 'random-red';
+
   dogImg = "https://tse2.mm.bing.net/th/id/OIP.RE5hy-cYDEedlP-woCr7HgHaE9?pid=Api&P=0&h=220"
 
   toggleModal(){
+    this.randomMsg = this.isShown ? 'random-green' : 'random-red';
     this.isShown = !this.isShown;
 
   }
