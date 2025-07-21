@@ -12,3 +12,22 @@
     color: white;
     text-align: center;
 }
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+.popup {
+    border: 1px solid black;
+    height: 10px;
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.wrapper {
+    height: 100px;
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+}

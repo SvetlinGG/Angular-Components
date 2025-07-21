@@ -3,11 +3,22 @@
 <div id="numbers-wrapper">
     @for ( num of numbers; track $index){
         @if (num % 2 === 0){
-            <div class="num">{{num}}</div>
+            <div class="num blue">This is blue line: {{num}}</div>
         }@else {
-            <div class="num">{{num}}</div>
+            <div class="num red">This is red line: {{num}}</div>
         }
     }
 </div>
+<div class="wrapper">
+    <button (click)="toggleModal()">Toggle Modal</button>
+</div>
+
+@if (isShown){
+    <div class="popup">
+        <input type="text" placeholder="email" />
+        <button>Click</button>
+    </div>
+}
+
 <app-footer />
 
