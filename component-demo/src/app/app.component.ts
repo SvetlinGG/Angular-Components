@@ -13,8 +13,13 @@ import { UserListComponent } from './user-list/user-list.component';
 })
 export class AppComponent {
   title = 'component-demo';
+
   numbers = [1, 2, 3, 4, 5];
+
   isShown = true;
+
+  dogImg = "https://tse2.mm.bing.net/th/id/OIP.RE5hy-cYDEedlP-woCr7HgHaE9?pid=Api&P=0&h=220"
+
   toggleModal(){
     this.isShown = !this.isShown;
 
