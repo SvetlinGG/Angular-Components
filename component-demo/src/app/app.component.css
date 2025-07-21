@@ -1,0 +1,12 @@
+#numbers-wrapper {
+    border: 1px solid red;
+    padding: 50;
+    margin: 0 auto;
+    width: 300px;
+    height: fit-content;
+}
+.num {
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin: 5px;
+}
