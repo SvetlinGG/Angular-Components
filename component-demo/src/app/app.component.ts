@@ -13,4 +13,5 @@ import { UserListComponent } from './user-list/user-list.component';
 })
 export class AppComponent {
   title = 'component-demo';
+  numbers = [1, 2, 3, 4, 5];
 }
