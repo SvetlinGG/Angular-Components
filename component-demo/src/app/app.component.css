@@ -1,12 +1,14 @@
 #numbers-wrapper {
-    border: 1px solid red;
-    padding: 50;
+    background-color: antiquewhite;
+    padding: 20px;
     margin: 0 auto;
     width: 300px;
     height: fit-content;
 }
 .num {
-    background-color: aliceblue;
+    background-color: darkblue;
     border-radius: 20px;
     margin: 5px;
+    color: white;
+    text-align: center;
 }

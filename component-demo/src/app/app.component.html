@@ -1,10 +1,13 @@
 <app-navigation-bar/>
 <app-user-list />
-<app-footer />
 <div id="numbers-wrapper">
     @for ( num of numbers; track $index){
-        <div class="num">{{num}}</div>
+        @if (num % 2 === 0){
+            <div class="num">{{num}}</div>
+        }@else {
+            <div class="num">{{num}}</div>
+        }
     }
 </div>
-
+<app-footer />
 
