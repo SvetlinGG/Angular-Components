@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { PopupComponent } from './popup/popup.component';
 
 @Component({
   selector: 'app-test-demo',
-  //imports: [],
+  imports: [PopupComponent],
   templateUrl: './test-demo.component.html',
   styleUrl: './test-demo.component.css'
 })
@@ -13,7 +14,7 @@ export class TestDemoComponent {
 
   randomMsg = 'random-red';
 
-  dogImg = "https://tse2.mm.bing.net/th/id/OIP.RE5hy-cYDEedlP-woCr7HgHaE9?pid=Api&P=0&h=220"
+  
 
   toggleModal(){
     this.randomMsg = this.isShown ? 'random-green' : 'random-red';
