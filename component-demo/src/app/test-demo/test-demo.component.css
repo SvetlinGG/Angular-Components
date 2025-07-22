@@ -35,11 +35,7 @@
     padding: 20px;
     margin: 0 auto;
 }
-img {
-    width: 100px;
-    height: 100px;
 
-}
 .random-red {
     border: 1px solid red;
     border-radius: 50px;
