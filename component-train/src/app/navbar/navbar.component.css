@@ -5,3 +5,10 @@
     background-color: aqua;
     gap: 10px;
 }
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: burlywood;
+}
