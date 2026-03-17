@@ -11,4 +11,5 @@ button {
 
 button:hover {
     background-color: burlywood;
+    color: white;
 }
