@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { UserItemComponent } from './user-item/user-item.component';
 
 @Component({
   selector: 'app-main',
-  imports: [],
+  imports: [UserItemComponent],
   templateUrl: './main.component.html',
   styleUrl: './main.component.css'
 })
