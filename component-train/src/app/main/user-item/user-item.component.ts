@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './user-item.component.css'
 })
 export class UserItemComponent {
-
+    user = {name: "George Georgiev", age: 21}
 }
