@@ -12,5 +12,5 @@ import { MainComponent } from './main/main.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'component-train';
+  numbers = [1, 2, 3, 4, 5]
 }

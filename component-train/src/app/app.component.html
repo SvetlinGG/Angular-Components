@@ -1,5 +1,10 @@
 
 <app-navbar />
 <app-main />
+<div class="num">
+    @for ( num of numbers; track $index) {
+        <div class="numbers">{{num}}</div>
+    }
+</div>
+    
 <app-footer />
-<router-outlet />
