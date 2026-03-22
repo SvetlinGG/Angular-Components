@@ -8,5 +8,11 @@ import { Component } from '@angular/core';
   styleUrl: './test-demo.component.css'
 })
 export class TestDemoComponent {
-  
+  numbers = [1, 2, 3, 4, 5];
+
+  isShown = true;
+
+  openShow(){
+    this.isShown = !this.isShown
+  }
 }

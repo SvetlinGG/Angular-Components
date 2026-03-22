@@ -1,1 +1,21 @@
-<p>test-demo works!</p>
+
+<div class="num">
+    @for ( num of numbers; track $index) {
+        @if ( num % 2 === 0) {
+            <div class="numbers">{{num}}</div>
+        }@else {
+            <div class="numbers-odd">{{num}}</div>
+        }
+        
+    }
+</div>
+<div class="btn">
+    <button (click)="openShow()">Show or Les</button>
+</div>
+
+@if (isShown) {
+    <div class="wrapper">
+        <input type="text" placeholder="email">
+        <button>Click</button>
+    </div>
+}
