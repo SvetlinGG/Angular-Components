@@ -1,5 +1,12 @@
 
-
+.num {
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 50;
+    margin: 0 auto;
+    width: 300px;
+    height: fit-content;
+}
 .numbers {
     background-color: blue;
     border-radius: 20px;

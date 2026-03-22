@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-test-demo',
@@ -7,12 +7,17 @@ import { Component } from '@angular/core';
   templateUrl: './test-demo.component.html',
   styleUrl: './test-demo.component.css'
 })
-export class TestDemoComponent {
+export class TestDemoComponent implements OnInit {
   numbers = [1, 2, 3, 4, 5];
 
   isShown = true;
 
   openShow(){
     this.isShown = !this.isShown
+  }
+
+  ngOnInit(): void {
+    console.log('CREATED');
+    
   }
 }
