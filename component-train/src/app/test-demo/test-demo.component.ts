@@ -17,6 +17,11 @@ export class TestDemoComponent implements OnInit {
   }
 
   ngOnInit(): void {
+
+    setTimeout(() => {
+      console.log('You Are Great!!!');
+      
+    }, 3000)
     console.log('CREATED');
     
   }
