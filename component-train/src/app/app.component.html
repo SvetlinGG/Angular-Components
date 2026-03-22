@@ -3,7 +3,12 @@
 <app-main />
 <div class="num">
     @for ( num of numbers; track $index) {
-        <div class="numbers">{{num}}</div>
+        @if ( num % 2 === 0) {
+            <div class="numbers">{{num}}</div>
+        }@else {
+            <div class="numbers-odd">{{num}}</div>
+        }
+        
     }
 </div>
     

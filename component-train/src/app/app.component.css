@@ -10,7 +10,16 @@
 }
 
 .numbers {
-    background-color: aliceblue;
+    background-color: blue;
     border-radius: 20px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+.numbers-odd {
+    background-color: red;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
     margin: 5px;
 }
