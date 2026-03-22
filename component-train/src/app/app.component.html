@@ -11,5 +11,18 @@
         
     }
 </div>
+<div class="btn">
+    <button (click)="openShow()">Show or Les</button>
+</div>
+
+@if (isShown) {
+    <div class="wrapper">
+        <input type="text" placeholder="email">
+        <button>Click</button>
+    </div>
+}
+
+
+
     
 <app-footer />
